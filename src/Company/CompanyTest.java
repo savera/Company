@@ -30,6 +30,7 @@ public class CompanyTest {
 	public void testCount() {
 		assertEquals(3, company.count(e -> e.isSoftwareEngineer()));
 		assertEquals(2, company.count(e -> e.getAge() > 18));
+		assertEquals(3, company.count(e -> e.isInSD())); 
 	}
 	
 	@Test

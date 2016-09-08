@@ -20,6 +20,10 @@ public class Employee {
 	public boolean isSoftwareEngineer() {
 		return occupation == OCCUPATION.SOFTWARE_ENGINEER;
 	}
+	
+	public boolean isInSD() {
+		return location == LOCATION.SAN_DIEGO;
+	}
 
 	public String getName() {
 		return name;
